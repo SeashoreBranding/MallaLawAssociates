@@ -1,0 +1,261 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Malla Law Associates</title>
+    <style>
+        body {
+            font-family: 'Times New Roman', Times, serif, sans-serif;
+            background-color: #addfff; /* Grey */
+            color:#000435;
+            margin: 0;
+            padding: 0;
+        }
+        header {
+            background-color: #000435; /* Dark Navy */
+            padding: 20px;
+            text-align: center;
+        }
+        header img {
+            max-width: 150px;
+        }
+        .container {
+            width: 80%;
+            margin: auto;
+        }
+        h1, h2 {
+            text-align: center;
+        }
+        h2 {
+            color: #0e0e7c;
+        }
+        section {
+            margin: 30px 0;
+            h3 {
+            color: #226e3d;
+        }
+        section {
+            margin: 30px 0;
+        }
+        .button {
+            background-color: #000000; /* Brown */
+            color: white;
+            padding: 10px 20px;
+            border: none;
+            cursor: pointer;
+            text-align: center;
+            display: inline-block;
+            font-size: 16px;
+            margin-top: 10px;
+        }
+        .learn-more-content {
+            display: none;
+            margin-top: 15px;
+            background-color: #addfff;
+            padding: 15px;
+            color: #226e3d;
+        }
+        .learn-more-content p {
+            font-size: 16px;
+        }
+        .footer {
+            background-color: #003366;
+            color: white;
+            padding: 20px;
+            text-align: center;
+        }
+        .consultation-form input, .consultation-form select {
+            padding: 10px;
+            width: 100%;
+            margin: 10px 0;
+        }
+        .consultation-form button {
+            background-color: #000000; /* Black */
+            color: white;
+            padding: 10px 20px;
+            border: none;
+            cursor: pointer;
+            width: 100%;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <img src="/Users/kinaramalla/Downloads/logo-placeholder.png.png" alt="Malla Law Associates Logo">
+</header>
+
+<div class="container">
+    <section id="about-us">
+        <h1>Welcome to Malla Law Associates</h1>
+    <p>At <strong>Malla Law Associates</strong>, we are dedicated to providing top-tier legal services with a focus on empowering individuals, businesses, and organizations with knowledge and legal expertise. Our mission is to offer practical, reliable, and strategic legal solutions that address the unique needs of our clients. With years of experience in various legal fields, our team ensures that you receive personalized, efficient legal guidance to achieve the best possible outcomes.</p>
+
+    <p>We offer a wide range of legal services across various sectors, including:</p>
+    <ul>
+        <li><strong>Civil Litigation & Dispute Resolution:</strong> Resolving disputes between individuals, businesses, and organizations through strategic and client-focused legal solutions.</li>
+        <li><strong>Corporate Law:</strong> Offering expert legal services for businesses, from company formation to corporate governance and contract management.</li>
+        <li><strong>Criminal Law:</strong> Providing aggressive defense strategies for those facing criminal charges to protect your rights and freedom.</li>
+        <li><strong>Family Law:</strong> Guiding clients through sensitive family matters such as divorce, child custody, and inheritance disputes.</li>
+        <li><strong>Employment Law:</strong> Ensuring fair treatment in the workplace, handling issues like discrimination, wrongful termination, and employee contracts.</li>
+    </ul>
+    
+    <p>At Malla Law Associates, we pride ourselves on:</p>
+    <ul>
+        <li><strong>Client-Centered Approach:</strong> Tailored legal strategies that address the specific needs and concerns of each client.</li>
+        <li><strong>Experienced Professionals:</strong> A team with extensive experience across various legal sectors, ensuring comprehensive expertise.</li>
+        <li><strong>Effective Communication:</strong> We keep our clients informed every step of the way, ensuring transparency and trust.</li>
+        <li><strong>Strategic Solutions:</strong> Focused on achieving the best possible outcome through negotiation, mediation, or litigation when necessary.</li>
+    </ul>
+    </section>
+
+    <section id="areas-of-practice">
+        <h2>Areas of Practice</h2>
+
+        <!-- Civil Litigation & Dispute Resolution Section -->
+        <div class="section">
+            <h3>Civil Litigation & Dispute Resolution</h3>
+            <p>Civil litigation is the legal process of resolving disputes between individuals, businesses, and organizations. Whether you are involved in a contract dispute, property issue, family matter, or any other civil dispute, <strong>Malla Law Associates</strong> is here to provide expert legal guidance and representation.</p>
+            <p>At <strong>Malla Law Associates</strong>, we understand that civil disputes can be both time-consuming and stressful. Our approach is focused on delivering strategic, client-centered solutions. We aim to resolve conflicts through negotiation or mediation whenever possible. However, we are fully prepared to represent your interests in court if litigation is necessary.</p>
+            <p>Our team handles a wide range of civil cases, including:</p>
+            <button class="button" onclick="toggleContent('corporate-law')">Learn More</button>
+            <div id="corporate-law" class="learn-more-content">
+                <ul>
+                    <li><strong>Contract Disputes:</strong> We assist clients with resolving issues related to breach of contract, enforcement of contract terms, and interpretation disagreements.</li>
+                    <li><strong>Property Disputes:</strong> Whether it involves ownership conflicts, boundary issues, or disputes over property transactions, we help guide clients through legal complexities in property law.</li>
+                    <li><strong>Family Law Disputes:</strong> From divorce and child custody cases to inheritance issues, we offer practical solutions to sensitive family matters while protecting your rights and interests.</li>
+                </ul>
+                <p>We take pride in offering a <strong>comprehensive and personalized approach</strong>, ensuring that our clients receive tailored legal advice based on their unique circumstances. Our team works diligently to minimize conflict and find the best path to resolution—whether that’s through direct negotiation or, when necessary, formal litigation.</p>
+            </div>
+        </div>
+
+        <!-- Corporate Law Section -->
+        <div class="section">
+            <h3>Corporate Law</h3>
+            <p>Corporate law involves legal matters related to businesses and companies. Whether you're a startup or an established corporation, <strong>Malla Law Associates</strong> offers comprehensive legal services to help you navigate the complexities of corporate law.</p>
+            <p>Our team of experts provides strategic counsel to ensure your business is compliant, well-protected, and able to handle challenges effectively.</p>
+            <button class="button" onclick="toggleContent('corporate-law-detail')">Learn More</button>
+            <div id="corporate-law-detail" class="learn-more-content">
+                <ul>
+                    <li><strong>Business Formation:</strong> We help with setting up your business structure, whether as a sole proprietorship, partnership, LLC, or corporation.</li>
+                    <li><strong>Corporate Governance:</strong> We guide businesses in maintaining proper governance practices, ensuring compliance with laws and regulations.</li>
+                    <li><strong>Contract Review and Drafting:</strong> We provide expert advice on drafting and reviewing contracts, ensuring they protect your business interests.</li>
+                </ul>
+                <p>Our corporate lawyers are committed to your business’s success, ensuring it operates legally and efficiently while protecting your interests.</p>
+            </div>
+        </div>
+
+        <!-- Criminal Law Section -->
+        <div class="section">
+            <h3>Criminal Law</h3>
+            <p>When facing criminal charges, having experienced legal counsel can make all the difference. At <strong>Malla Law Associates</strong>, we specialize in criminal defense, offering strategic legal representation to ensure your rights are protected throughout the process.</p>
+            <p>Our team provides aggressive defense strategies and works tirelessly to achieve favorable outcomes for our clients.</p>
+            <button class="button" onclick="toggleContent('criminal-law-detail')">Learn More</button>
+            <div id="criminal-law-detail" class="learn-more-content">
+                <ul>
+                    <li><strong>Defense Strategies:</strong> We tailor defense strategies to each case, focusing on minimizing penalties or achieving dismissals where possible.</li>
+                    <li><strong>Drug and Alcohol Offenses:</strong> Our experienced lawyers handle drug-related and DUI offenses with a focus on reducing or eliminating charges.</li>
+                    <li><strong>White-Collar Crimes:</strong> We defend clients against charges related to fraud, embezzlement, and other financial crimes.</li>
+                </ul>
+                <p>Our criminal lawyers are relentless in their pursuit of justice, defending your freedom and reputation every step of the way.</p>
+            </div>
+        </div>
+
+        <!-- Family Law Section -->
+        <div class="section">
+            <h3>Family Law</h3>
+            <p>Family law matters can be emotionally and legally complex. <strong>Malla Law Associates</strong> provides compassionate legal services in all areas of family law, including divorce, child custody, and inheritance issues.</p>
+            <p>Our team offers a personalized approach to resolving family disputes, ensuring that your interests and those of your loved ones are protected.</p>
+            <button class="button" onclick="toggleContent('family-law-detail')">Learn More</button>
+            <div id="family-law-detail" class="learn-more-content">
+                <ul>
+                    <li><strong>Divorce and Separation:</strong> We assist with the legal aspects of divorce, including property division and alimony.</li>
+                    <li><strong>Child Custody and Support:</strong> Our team helps you navigate child custody agreements and ensures fair child support arrangements.</li>
+                    <li><strong>Inheritance Disputes:</strong> We handle conflicts arising from inheritance and estate distribution, providing clarity and fairness.</li>
+                </ul>
+                <p>We understand the delicate nature of family law matters and work to resolve issues amicably while safeguarding your rights.</p>
+            </div>
+        </div>
+
+        <!-- Employment Law Section -->
+        <div class="section">
+            <h3>Employment Law</h3>
+            <p>Employment law governs the relationship between employers and employees. <strong>Malla Law Associates</strong> offers legal services to both employees and employers on a variety of employment-related issues.</p>
+            <p>We provide solutions that ensure fairness in the workplace while protecting the rights of all parties involved.</p>
+            <button class="button" onclick="toggleContent('employment-law-detail')">Learn More</button>
+            <div id="employment-law-detail" class="learn-more-content">
+                <ul>
+                    <li><strong>Employment Contracts:</strong> We assist in drafting, reviewing, and enforcing employment agreements.</li>
+                    <li><strong>Workplace Discrimination:</strong> We help clients who have faced discrimination or harassment in the workplace.</li>
+                    <li><strong>Wrongful Termination:</strong> We offer legal counsel for employees and employers involved in wrongful termination claims.</li>
+                </ul>
+                <p>We are committed to ensuring workplace fairness and resolving employment disputes with expertise and integrity.</p>
+            </div>
+        </div>
+
+        <!-- Other Legal Services -->
+        <div class="practice-area">
+            <h3>Other Legal Services</h3>
+            <p>Additional Legal Assistance...</p>
+            <button class="button" onclick="toggleContent('other-services')">Learn More</button>
+            <div id="other-services" class="learn-more-content">
+                <p>We also provide services for various other legal matters such as wills, estates, and more.</p>
+            </div>
+        </div>
+
+    </section>
+
+    <section id="consultation">
+        <h2>Consult with Us</h2>
+        <div class="consultation-form">
+            <form action="/submit-consultation" method="POST">
+                <label for="consultation-type">Select Consultation Type:</label>
+                <select name="consultation-type" id="consultation-type">
+                    <option value="video-call">Video Call</option>
+                    <option value="phone-call">Phone Call</option>
+                    <option value="in-person">In-Person Meeting</option>
+                </select>
+
+                <label for="consultation-date">Select Date and Time:</label>
+                <input type="datetime-local" name="consultation-date" id="consultation-date">
+
+                <label for="name">Full Name:</label>
+                <input type="text" name="name" id="name" placeholder="Your full name" required>
+
+                <label for="phone">Phone Number:</label>
+                <input type="tel" name="phone" id="phone" placeholder="Your phone number" required>
+
+                <label for="email">Email Address:</label>
+                <input type="email" name="email" id="email" placeholder="Your email" required>
+
+                <button type="submit">Book Consultation</button>
+            </form>
+        </div>
+    </section>
+
+    <section id="testimonials">
+        <h2>What Our Clients Say</h2>
+        <div class="testimonial">
+            <p><em>"The guidance provided by Malla Law Associates helped us navigate a challenging situation with ease." - Corporate Client</em></p>
+        </div>
+        <!-- Add more testimonials as necessary -->
+    </section>
+</div>
+
+<footer class="footer">
+    <p>&copy; 2025 Malla Law Associates. All rights reserved.</p>
+</footer>
+
+<script>
+    function toggleContent(id) {
+        var content = document.getElementById(id);
+        if (content.style.display === "none" || content.style.display === "") {
+            content.style.display = "block";
+        } else {
+            content.style.display = "none";
+        }
+    }
+</script>
+
+</body>
+</html>
